@@ -4,13 +4,19 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "build-ovms",
             "type": "shell",
-            "command": "bazel build --copt=\"-O0\" --compilation_mode=dbg //src:ovms",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "command": "bazel build --copt=\"-O0\" --compilation_mode=dbg //src:ovms"
+        },
+        {
+            "label": "run-bazel-test",
+            "type": "shell",
+            "command": "bazel test --test_summary=detailed --test_output=summary //src:ovms_test"
+        },
+        {
+            "label": "build-gtest",
+            "type": "shell",
+            "command": "bazel build --copt=\"-O0\" --compilation_mode=dbg //src:ovms_test"
         }
     ]
 }

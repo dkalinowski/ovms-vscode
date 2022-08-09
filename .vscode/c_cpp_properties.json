@@ -13,7 +13,11 @@
                 "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/spdlog/include/",
                 "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/execroot/ovms/bazel-out/k8-dbg/bin/external/org_tensorflow/",
                 "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/com_google_absl",
-                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/org_tensorflow/third_party/eigen3/"
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/org_tensorflow/third_party/eigen3/",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/com_google_googletest/googlemock/include/",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/com_google_googletest/googletest/include",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/com_github_jupp0r_prometheus_cpp/core/include",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/execroot/ovms/bazel-out/k8-opt/bin/external/com_github_jupp0r_prometheus_cpp/core/_virtual_includes/core"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

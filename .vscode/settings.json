@@ -1,4 +1,11 @@
 {
+    "testMate.cpp.test.advancedExecutables": [
+        {
+            "runTask": {"before": ["build-gtest"]},
+            "pattern": "/ovms/bazel-bin/src/ovms_test"
+        }
+    ],
+    "testMate.cpp.test.workingDirectory": "/ovms",
     "files.associations": {
         "array": "cpp",
         "atomic": "cpp",
@@ -62,6 +69,26 @@
         "memory_resource": "cpp",
         "regex": "cpp",
         "variant": "cpp",
-        "core": "cpp"
+        "core": "cpp",
+        "format": "cpp",
+        "any": "cpp",
+        "strstream": "cpp",
+        "cfenv": "cpp",
+        "charconv": "cpp",
+        "cinttypes": "cpp",
+        "csetjmp": "cpp",
+        "csignal": "cpp",
+        "cuchar": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "netfwd": "cpp",
+        "random": "cpp",
+        "hash_map": "cpp",
+        "rope": "cpp",
+        "slist": "cpp",
+        "scoped_allocator": "cpp",
+        "valarray": "cpp",
+        "*.ipp": "cpp",
+        "*.inc": "cpp"
     }
 }
