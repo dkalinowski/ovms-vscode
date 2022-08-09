@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/minitrace",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/execroot/ovms/bazel-out/k8-dbg/bin/external",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/org_tensorflow",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/execroot/ovms/bazel-out/k8-dbg/bin/external/openvino/_virtual_includes/openvino_new_headers",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/execroot/ovms/bazel-out/k8-dbg/bin/external/openvino/_virtual_includes/openvino_old_headers",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/execroot/ovms/bazel-out/k8-dbg/bin/external/openvino/_virtual_includes/ngraph",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/spdlog/include/",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/execroot/ovms/bazel-out/k8-dbg/bin/external/org_tensorflow/",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/com_google_absl",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/org_tensorflow/third_party/eigen3/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

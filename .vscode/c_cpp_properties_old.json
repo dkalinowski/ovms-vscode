@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "/home/dkalinow/tensorflow-serving",
+                "/home/dkalinow/tensorflow_serving_proto",
+                "/home/dkalinow/kfs_proto",
+                "/home/dkalinow/tensorflow",
+                "/home/dkalinow/grpc/include",
+                "/home/dkalinow/protobuf/src",
+                "/home/dkalinow/workspace/openvino_new_api_2022.2.0.6",
+                "/home/dkalinow/workspace/openvino_new_api_2022.2.0.6/ie",
+                "/home/dkalinow/spdlog/include",
+                "/home/dkalinow/abseil-cpp",
+                "/home/dkalinow/opencv/include",
+                "/home/dkalinow/minitrace",
+                "/home/dkalinow/rapidjson/include",
+                "/home/dkalinow/workspace/prometheus/core",
+                "/home/dkalinow/workspace/prometheus/pull",
+                "/home/dkalinow/workspace/prometheus/pull2/include",
+                "/home/dkalinow/workspace/prometheus/core2/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

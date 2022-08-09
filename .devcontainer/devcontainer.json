@@ -1,0 +1,27 @@
+{
+    "name": "build_dkalinow_vs",
+    "image": "ovms-dkalinow-build-build:latest",
+    "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.hexeditor"
+    ],
+    "runArgs": [
+        "--cap-add=SYS_PTRACE",
+        "--security-opt",
+        "seccomp=unconfined",
+        "-p",
+        "11337:11337",
+        "-p",
+        "11338:11338"
+    ],
+    "mounts": [
+        "source=/home/dkalinow/model_server,target=/ovms,type=bind",
+        "source=/home/dkalinow/workspace,target=/workspace,type=bind"
+    ],
+    "containerEnv": {
+        "http_proxy": "${localEnv:http_proxy}",
+        "https_proxy": "${localEnv:https_proxy}",
+        "no_proxy": "${localEnv:no_proxy}"
+    },
+    "forwardPorts": [11337, 11338]
+}
