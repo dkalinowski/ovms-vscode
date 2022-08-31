@@ -17,7 +17,11 @@
                 "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/com_google_googletest/googlemock/include/",
                 "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/com_google_googletest/googletest/include",
                 "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/com_github_jupp0r_prometheus_cpp/core/include",
-                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/execroot/ovms/bazel-out/k8-opt/bin/external/com_github_jupp0r_prometheus_cpp/core/_virtual_includes/core"
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/execroot/ovms/bazel-out/k8-opt/bin/external/com_github_jupp0r_prometheus_cpp/core/_virtual_includes/core",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/com_github_grpc_grpc/include/",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/tensorflow_serving/",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/cxxopts/include/",
+                "/root/.cache/bazel/_bazel_root/bc57d4817a53cab8c785464da57d1983/external/rapidjson/include/"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

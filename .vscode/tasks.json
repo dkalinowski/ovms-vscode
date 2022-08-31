@@ -6,17 +6,26 @@
         {
             "label": "build-ovms",
             "type": "shell",
-            "command": "bazel build --copt=\"-O0\" --compilation_mode=dbg //src:ovms"
+            "command": "bazel build  //src:ovms",
+            "problemMatcher": []
+        },
+        {
+            "label": "build-ovms-dbg",
+            "type": "shell",
+            "command": "bazel build  //src:ovms",
+            "problemMatcher": []
         },
         {
             "label": "run-bazel-test",
             "type": "shell",
-            "command": "bazel test --test_summary=detailed --test_output=summary //src:ovms_test"
+            "command": "bazel test --test_summary=detailed --test_output=summary //src:ovms_test ",
+            "problemMatcher": []
         },
         {
             "label": "build-gtest",
             "type": "shell",
-            "command": "bazel build --copt=\"-O0\" --compilation_mode=dbg //src:ovms_test"
+            "command": "bazel build --copt=\"-O0\" --compilation_mode=dbg -s //src:ovms_test",
+            "problemMatcher": []
         }
     ]
 }

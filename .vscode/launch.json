@@ -4,19 +4,26 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-            {
+        {
             "name": "debug-ovms",
             "type": "cppdbg",
             "request": "launch",
-            "preLaunchTask": "build-ovms",
             "program": "/ovms/bazel-bin/src/ovms",
             "args": [
                 "--port",
                 "11337",
-                "--model_name",
-                "dummy",
-                "--model_path",
-                "/ovms/src/test/dummy"
+                "--rest_port",
+                "11338",
+                "--config_path",
+                "/workspace/metric_dev/config.json",
+                "--log_level",
+                "INFO"
+                //"--model_name",
+                //"dummy",
+                //"resnet",
+                //"--model_path",
+                //"/ovms/src/test/dummy"
+                //"/workspace/models/resnet-50-tf"
             ],
             "stopAtEntry": false,
             "MIMode": "gdb",
@@ -36,8 +43,7 @@
             "request": "launch",
             "preLaunchTask": "build-gtest",
             "program": "/ovms/bazel-bin/src/ovms_test",
-            "args": [
-            ],
+            "args": [],
             "stopAtEntry": false,
             "MIMode": "gdb",
             "externalConsole": false,
