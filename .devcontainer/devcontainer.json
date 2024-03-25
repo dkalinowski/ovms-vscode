@@ -1,10 +1,13 @@
 {
     "name": "build_dkalinow_vs",
-    "image": "ovms-dkalinow-build-build:latest",
+    "image": "dk_build_25_03:latest",
     "extensions": [
         "ms-vscode.cpptools",
         "ms-vscode.hexeditor",
-        "matepek.vscode-catch2-test-adapter"
+        "matepek.vscode-catch2-test-adapter",
+        "waderyan.gitblame",
+        "shd101wyy.markdown-preview-enhanced",
+        "eamodio.gitlens"
     ],
     "runArgs": [
         "--cap-add=SYS_PTRACE",
@@ -16,8 +19,8 @@
         "11338:11338"
     ],
     "mounts": [
-        "source=/home/dkalinow/model_server,target=/ovms,type=bind",
-        "source=/home/dkalinow/workspace,target=/workspace,type=bind"
+        "source=/opt/home/dkalinow/model_server,target=/ovms,type=bind",
+        "source=/opt/home/dkalinow/workspace,target=/workspace,type=bind"
     ],
     "containerEnv": {
         "http_proxy": "${localEnv:http_proxy}",
