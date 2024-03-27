@@ -18,8 +18,10 @@
         "-p",
         "11338:11338"
     ],
+    "workspaceFolder": "/ovms",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/ovms,type=bind",
     "mounts": [
-        "source=/opt/home/dkalinow/model_server,target=/ovms,type=bind",
+        //"source=/opt/home/dkalinow/model_server,target=/ovms,type=bind",
         "source=/opt/home/dkalinow/workspace,target=/workspace,type=bind"
     ],
     "containerEnv": {
